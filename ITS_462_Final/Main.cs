@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ITS_462_Final
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
+        }
+
+        private void Scrape(object sender, EventArgs e)
+        {
+
         }
     }
 }
