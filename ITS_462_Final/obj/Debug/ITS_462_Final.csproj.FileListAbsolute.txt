@@ -29,3 +29,34 @@ C:\Users\michae29\source\repos\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Fin
 C:\Users\michae29\source\repos\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.csproj.CopyComplete
 C:\Users\michae29\source\repos\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.exe
 C:\Users\michae29\source\repos\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.pdb
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\ITS_462_Final.exe.config
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\ITS_462_Final.exe
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\ITS_462_Final.pdb
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\HtmlAgilityPack.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\Microsoft.Data.Sqlite.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\SQLitePCLRaw.core.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\SQLitePCLRaw.nativelibrary.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Buffers.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Memory.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Numerics.Vectors.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\HtmlAgilityPack.pdb
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\HtmlAgilityPack.xml
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\Microsoft.Data.Sqlite.xml
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Buffers.xml
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Memory.xml
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Numerics.Vectors.xml
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.csprojAssemblyReference.cache
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.Main.resources
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.Properties.Resources.resources
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.csproj.GenerateResource.cache
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.csproj.CoreCompileInputs.cache
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.csproj.CopyComplete
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.exe
+S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.pdb
