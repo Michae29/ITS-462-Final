@@ -21,5 +21,10 @@ namespace ITS_462_Final
         {
 
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
