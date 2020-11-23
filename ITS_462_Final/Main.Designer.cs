@@ -41,10 +41,9 @@
             // 
             // Scrape_Button
             // 
-            this.Scrape_Button.Location = new System.Drawing.Point(419, 407);
-            this.Scrape_Button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Scrape_Button.Location = new System.Drawing.Point(279, 265);
             this.Scrape_Button.Name = "Scrape_Button";
-            this.Scrape_Button.Size = new System.Drawing.Size(112, 35);
+            this.Scrape_Button.Size = new System.Drawing.Size(75, 23);
             this.Scrape_Button.TabIndex = 0;
             this.Scrape_Button.Text = "Run Scrape";
             this.Scrape_Button.UseVisualStyleBackColor = true;
@@ -56,42 +55,42 @@
             this.Scrape_Box.Items.AddRange(new object[] {
             "Product Description",
             "Product Specifications",
-            "Price",
-            "Discount"});
-            this.Scrape_Box.Location = new System.Drawing.Point(733, 247);
-            this.Scrape_Box.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            "Price"});
+            this.Scrape_Box.Location = new System.Drawing.Point(294, 161);
             this.Scrape_Box.Name = "Scrape_Box";
-            this.Scrape_Box.Size = new System.Drawing.Size(180, 28);
+            this.Scrape_Box.Size = new System.Drawing.Size(121, 21);
             this.Scrape_Box.TabIndex = 1;
             this.Scrape_Box.SelectedIndexChanged += new System.EventHandler(this.Scrape_Deter_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(709, 184);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(278, 120);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 20);
+            this.label1.Size = new System.Drawing.Size(149, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "What information to scrape for";
             // 
             // Manufacturer
             // 
             this.Manufacturer.AutoSize = true;
-            this.Manufacturer.Location = new System.Drawing.Point(238, 184);
+            this.Manufacturer.Location = new System.Drawing.Point(159, 120);
+            this.Manufacturer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Manufacturer.Name = "Manufacturer";
-            this.Manufacturer.Size = new System.Drawing.Size(146, 20);
+            this.Manufacturer.Size = new System.Drawing.Size(99, 13);
             this.Manufacturer.TabIndex = 4;
             this.Manufacturer.Text = "What Manufacturer";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(494, 184);
+            this.label2.Location = new System.Drawing.Point(475, 122);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 20);
+            this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "What Price";
+            this.label2.Visible = false;
             // 
             // Price_Deter
             // 
@@ -102,17 +101,20 @@
             "300-400",
             "400-500",
             "500+"});
-            this.Price_Deter.Location = new System.Drawing.Point(474, 245);
+            this.Price_Deter.Location = new System.Drawing.Point(462, 161);
+            this.Price_Deter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Price_Deter.Name = "Price_Deter";
-            this.Price_Deter.Size = new System.Drawing.Size(142, 28);
+            this.Price_Deter.Size = new System.Drawing.Size(96, 21);
             this.Price_Deter.TabIndex = 7;
+            this.Price_Deter.Visible = false;
             // 
             // Manufacturer_Deter
             // 
             this.Manufacturer_Deter.FormattingEnabled = true;
-            this.Manufacturer_Deter.Location = new System.Drawing.Point(252, 247);
+            this.Manufacturer_Deter.Location = new System.Drawing.Point(168, 161);
+            this.Manufacturer_Deter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Manufacturer_Deter.Name = "Manufacturer_Deter";
-            this.Manufacturer_Deter.Size = new System.Drawing.Size(121, 28);
+            this.Manufacturer_Deter.Size = new System.Drawing.Size(82, 21);
             this.Manufacturer_Deter.TabIndex = 8;
             // 
             // Item_Deter
@@ -122,26 +124,28 @@
             "Computer",
             "Tablet",
             "Phone"});
-            this.Item_Deter.Location = new System.Drawing.Point(54, 247);
+            this.Item_Deter.Location = new System.Drawing.Point(36, 161);
+            this.Item_Deter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Item_Deter.Name = "Item_Deter";
-            this.Item_Deter.Size = new System.Drawing.Size(121, 28);
+            this.Item_Deter.Size = new System.Drawing.Size(82, 21);
             this.Item_Deter.TabIndex = 10;
             this.Item_Deter.SelectedIndexChanged += new System.EventHandler(this.Item_Deter_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(69, 184);
+            this.label3.Location = new System.Drawing.Point(46, 120);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 20);
+            this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "What Item";
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1258, 774);
+            this.ClientSize = new System.Drawing.Size(839, 503);
             this.Controls.Add(this.Item_Deter);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Manufacturer_Deter);
@@ -151,7 +155,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Scrape_Box);
             this.Controls.Add(this.Scrape_Button);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Main";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Main_Load);

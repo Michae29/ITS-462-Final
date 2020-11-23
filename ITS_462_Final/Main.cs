@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 using HtmlAgilityPack;
 
 namespace ITS_462_Final
@@ -32,12 +33,24 @@ namespace ITS_462_Final
 
         private void Scrape_Deter_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
+            if (Scrape_Box.SelectedIndex == 2)
+            {
+                Price_Deter.Visible=true;
+                label2.Visible = true;
+            }
+            else
+            {
+                Price_Deter.Visible = false;
+                label2.Visible = false;
+            }
+
         }
 
         private void Scrape_Button_Click(object sender, EventArgs e)
         {
             string url = "https://webscraper.io/test-sites/e-commerce/allinone";
+
 
             if (Item_Deter.SelectedItem.ToString() == "Computer")
             {
@@ -61,18 +74,18 @@ namespace ITS_462_Final
             string price = Price_Deter.SelectedItem.ToString();
             string selector = Scrape_Box.SelectedItem.ToString();
 
-            HtmlNode[] nodes = doc.DocumentNode.SelectNodes("//div [@class='caption'] | ./h4 [@class='pull-right price>1000.00']").Where(x => x.InnerText.Contains(Manu)).ToArray();
+  
 
-            for(int i =0;i<nodes.Length;i++)
+            HtmlNode[] Nodes = doc.DocumentNode.SelectNodes(" //div [@class='caption']/h4/a[text()[contains(.,'" + Manu + "')]] | //div [@class='caption']/h4/a[text()[contains(.,'" + Manu + "')]]/../../h4 [@class='pull-right price'] ").ToArray();
+
+
+            foreach (HtmlNode Current in Nodes)
             {
-                Console.WriteLine("Scrape ran");
+                Console.WriteLine(Current.InnerText);
 
-               
-
-                Console.WriteLine(nodes[i].InnerHtml);
             }
             
-
+            
         }
 
         private void Item_Deter_SelectedIndexChanged(object sender, EventArgs e)
@@ -110,9 +123,5 @@ namespace ITS_462_Final
             }
         }
 
-        private void Main_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
