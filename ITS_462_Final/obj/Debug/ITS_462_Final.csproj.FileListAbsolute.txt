@@ -60,3 +60,4 @@ S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\
 S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.csproj.CopyComplete
 S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.exe
 S:\SSD_General Programs\MS Visual Studio\Source\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.pdb
+C:\Users\michae29\source\repos\ITS-462-Final\ITS_462_Final\obj\Debug\ITS_462_Final.Form2.resources

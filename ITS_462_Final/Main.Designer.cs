@@ -96,13 +96,13 @@
             // 
             this.Price_Deter.FormattingEnabled = true;
             this.Price_Deter.Items.AddRange(new object[] {
-            "100-200",
-            "200-300",
-            "300-400",
-            "400-500",
-            "500+"});
+            "100-400",
+            "400-700",
+            "700-1000",
+            "1000-1300",
+            "1300+"});
             this.Price_Deter.Location = new System.Drawing.Point(462, 161);
-            this.Price_Deter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Price_Deter.Margin = new System.Windows.Forms.Padding(2);
             this.Price_Deter.Name = "Price_Deter";
             this.Price_Deter.Size = new System.Drawing.Size(96, 21);
             this.Price_Deter.TabIndex = 7;
@@ -112,7 +112,7 @@
             // 
             this.Manufacturer_Deter.FormattingEnabled = true;
             this.Manufacturer_Deter.Location = new System.Drawing.Point(168, 161);
-            this.Manufacturer_Deter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Manufacturer_Deter.Margin = new System.Windows.Forms.Padding(2);
             this.Manufacturer_Deter.Name = "Manufacturer_Deter";
             this.Manufacturer_Deter.Size = new System.Drawing.Size(82, 21);
             this.Manufacturer_Deter.TabIndex = 8;
@@ -125,7 +125,7 @@
             "Tablet",
             "Phone"});
             this.Item_Deter.Location = new System.Drawing.Point(36, 161);
-            this.Item_Deter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Item_Deter.Margin = new System.Windows.Forms.Padding(2);
             this.Item_Deter.Name = "Item_Deter";
             this.Item_Deter.Size = new System.Drawing.Size(82, 21);
             this.Item_Deter.TabIndex = 10;
