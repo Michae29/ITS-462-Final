@@ -216,5 +216,11 @@ namespace ITS_462_Final
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ProductData Primary = new ProductData();
+            Primary.Show();
+        }
     }
 }
